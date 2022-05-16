@@ -1,22 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Data from './components/Operating';
 
 function App() {
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
         <Data/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Amit
-        </a>
-      </header>
+        <h1>Mobile Manufacture</h1>
+        <div>
+        <ul>
+          <li>Samsung</li>
+          <li>Home</li>
+          <li>Home</li>
+        </ul>
+        </div>
     </div>
   );
 }
